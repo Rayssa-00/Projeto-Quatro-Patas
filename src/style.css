@@ -88,7 +88,7 @@ a {
     background-color: #cccccccc;
     padding: 10px;
     position: absolute;
-    left: 25px;
+    left: 10px;
     bottom: 25px;
 }
 
@@ -132,4 +132,30 @@ a {
 
 .information-card {
     background-color: #cccccc6e;
+}
+
+/* Footer */
+
+footer {
+    border-top: 1.25px solid #cccc;
+    height: 150px;
+    padding: 30px;
+}
+
+footer i {
+    font-size: 20px;
+}
+
+#social-icons-container div{
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+a:hover i {
+    font-size: 22px;
+    color: #8d8b8b;
 }
